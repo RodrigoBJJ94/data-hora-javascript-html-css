@@ -19,7 +19,7 @@ function criarData(data) {
     const nomeMes = getMes(mes);
 
     return (
-        `${nomeDiaSemana}, ${data.getDate()} de ${nomeMes} de ${data.getFullYear()}, ${zeroAEsquerda(data.getHours())}:${zeroAEsquerda(data.getMinutes())}:${data.getSeconds()}`
+        `${nomeDiaSemana}, ${data.getDate()} de ${nomeMes} de ${data.getFullYear()}, ${zeroAEsquerda(data.getHours())}:${zeroAEsquerda(data.getMinutes())}:${zeroAEsquerda(data.getSeconds())}`
         );
 }
     h1.innerHTML = criarData(data);

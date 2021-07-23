@@ -28,7 +28,7 @@ footer p {
     font-style: italic;
 }
 @media (max-width: 800px) {
-    .container {
-        max-width: 620px;
+    body {
+        font-size: 1.1em;
     }
 }

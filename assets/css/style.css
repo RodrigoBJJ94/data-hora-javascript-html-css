@@ -29,6 +29,6 @@ footer p {
 }
 @media (max-width: 800px) {
     .container {
-        max-width: 430px;
+        max-width: 450px;
     }
 }

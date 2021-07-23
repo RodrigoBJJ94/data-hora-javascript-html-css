@@ -16,9 +16,19 @@ body{
     line-height: 1.5em;
 }
 .container {
-    max-width: 640px;
+    max-width: 670px;
     margin: 50px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+@media (max-width: 800px) {
+    .container {
+        max-width: 400px;
+    }
 }
